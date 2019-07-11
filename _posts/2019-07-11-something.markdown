@@ -1,0 +1,4 @@
+---
+title: something
+layout: post
+---
