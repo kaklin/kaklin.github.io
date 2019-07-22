@@ -9,14 +9,19 @@
 
         {{ content }}
 
-        {% for post in site.posts %}
-            <small>{{ post.date | date: "%-d %B %Y" }}</small>
-            <h1><a href="{{ post.url }}">{{ post.title}}</a></h1>
-            {% if post.authors %}
-            <h4>{{ post.authors | join: ', ' }}</h4>
-            {% endif %}
-            <p>{{ post.excerpt }} <a href="{{ post.url }}">continue...</a></p>
-        {% endfor %}
+        {% assign pubs = site.posts | where: "categories","publication" %}
+        {% assign num_posts = pubs | size %}
+        {% if num_posts != 0 %}
+          {% for post in pubs %}
+              <small>{{ post.date | date: "%-d %B %Y" }}</small>
+              <h1><a href="{{ post.url }}">{{ post.title}}</a></h1>
+              <h4>{{ post.authors | join: ', ' }}</h4>
+              <p>{{ post.excerpt }} <a href="{{ post.url }}">continue...</a></p>
+          {% endfor %}
+        {% else %}
+          <p>No posts yet. </p>
+        {% endif %}
+
 
         </div>
         <div class="footer">

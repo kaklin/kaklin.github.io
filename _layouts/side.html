@@ -9,14 +9,17 @@
 
         {{ content }}
 
-        {% for post in site.posts %}
-            <small>{{ post.date | date: "%-d %B %Y" }}</small>
-            <h1><a href="{{ post.url }}">{{ post.title}}</a></h1>
-            {% if post.authors %}
-            <h4>{{ post.authors | join: ', ' }}</h4>
-            {% endif %}
-            <p>{{ post.excerpt }} <a href="{{ post.url }}">continue...</a></p>
-        {% endfor %}
+        {% assign sides = site.posts | where: "categories","side" %}
+        {% assign num_posts = sides | size %}
+        {% if num_posts > 0 %}
+          {% for side in sides  %}
+              <small>{{ post.date | date: "%-d %B %Y" }}</small>
+              <h1><a href="{{ post.url }}">{{ post.title}}</a></h1>
+              <p>{{ post.excerpt }} <a href="{{ post.url }}">continue...</a></p>
+          {% endfor %}
+        {% else %}
+          <p>No posts yet. </p>
+        {% endif %}
 
         </div>
         <div class="footer">

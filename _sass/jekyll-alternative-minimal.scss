@@ -1,0 +1,292 @@
+@import "fonts";
+@import "rouge-github";
+
+body {
+  background-color: #fff;
+  padding:30px;
+  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#727272;
+  font-weight:400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color:#222;
+  margin:0px 0px 20px 0px;
+}
+
+p, ul, ol, table, pre, dl {
+  margin:0 0 20px;
+}
+
+h1, h2, h3 {
+  line-height:1.1;
+}
+
+h1 {
+  font-size:28px;
+}
+
+h1 a{
+  color:#393939;
+}
+
+h1 a:hover{
+  color:#bbbbbb;
+}
+
+h2 {
+  color:#393939;
+}
+
+h2 a{
+  color:#393939;
+
+}
+
+h2 a:hover{
+  color:#bbbbbb;
+}
+
+h3, h4, h5, h6 {
+  color:#494949;
+}
+
+a {
+  color:#267CB9;
+  text-decoration:none;
+}
+
+a:hover, a:focus {
+  color:#069;
+}
+
+a > i {
+  font-size:36px;
+  color:#222;
+}
+
+a > i:hover {
+  color:#bbbbbb;  
+}
+
+a:hover, a:focus {
+  color:#069;
+}
+
+a small {
+  font-size:11px;
+  color:#777;
+  margin-top:-0.3em;
+  display:block;
+}
+
+a:hover small {
+  color:#777;
+}
+
+.wrapper {
+  max-width:900px;
+  margin:0 auto;
+}
+
+.grid-container {
+  // justify-content: center;
+  min-height: 90vh;
+  display: grid;
+  grid-template-areas: 
+    "sidebar feed" 
+    "footer feed";
+  grid-template-rows: auto 3em;
+  grid-template-columns: 1fr 2fr;
+  padding: 10px;
+  grid-column-gap: 30px;
+  grid-row-gap: 20px;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.content {
+  grid-area: feed;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+blockquote {
+  border-left:1px solid #e5e5e5;
+  margin:0;
+  padding:0 0 0 20px;
+  font-style:italic;
+}
+
+code, pre {
+  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+  color:#333;
+}
+
+pre {
+  padding:8px 15px;
+  background: #f8f8f8;
+  border-radius:5px;
+  border:1px solid #e5e5e5;
+  overflow-x: auto;
+}
+
+table {
+  width:100%;
+  border-collapse:collapse;
+}
+
+th, td {
+  text-align:left;
+  padding:5px 10px;
+  border-bottom:1px solid #e5e5e5;
+}
+
+dt {
+  color:#444;
+  font-weight:700;
+}
+
+th {
+  color:#444;
+}
+
+img {
+  max-width:100%;
+}
+
+header {
+  text-align: center;
+}
+
+header > .image_wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  // width: 50%;
+  margin: 0 auto;
+}
+
+.description {
+  margin-top: 1em;
+  text-align: center;
+}
+
+strong {
+  color:#222;
+  font-weight:700;
+}
+
+header > .icons {
+  // width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  color:#222;
+  padding-bottom:2em;
+  padding-top:1em;
+}
+
+header > .icons a {
+  color:#222;
+}
+
+header > .icons a:hover {
+  color:#bbbbbb;  
+}
+
+header i {
+  font-size: 38px;
+  padding: 0px 8px 0px 8px
+}
+
+
+ul.downloads {}
+
+.downloads li {}
+
+.downloads li:first-child a {}
+
+.downloads li:last-child a {}
+
+.downloads a {}
+
+.downloads a:hover, .downloads a:focus {}
+
+.downloads ul a:active {}
+
+.downloads li + li + li {}
+
+.downloads a strong {}
+
+section {}
+
+small {}
+
+hr {}
+
+footer {}
+
+
+@media print, screen and (max-width: 640px) {
+  body {
+    word-wrap: break-word;
+  }
+
+  header > h1 {
+    width: 70%;
+    margin-left:  auto;
+    margin-right: auto;
+  }
+
+  header > p{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  header > .image_wrapper {
+    // text-align: center;
+    // max-height: 200px;
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-areas: 
+      "sidebar"
+      "feed" 
+      "footer";
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto;
+
+    padding: 0px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+}
+
+@media print, screen and (max-width: 480px) {
+    .grid-container {
+    display: grid;
+    grid-template-areas: 
+      "sidebar"
+      "feed" 
+      "footer";
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto;
+
+    padding: 0px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+}
+
+@media print {}

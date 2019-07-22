@@ -1,0 +1,18 @@
+<header>
+  <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+
+  {% if site.logo %}
+  <p class="image_wrapper"><img class="profile-pic" src="{{site.logo | relative_url}}" alt="Logo" /></p>
+  {% endif %}
+
+  <p class="description ">{{ site.description | default: site.github.project_tagline }}</p>
+
+  <div class="icons">
+    <a href="mailto:filip.kaklin@ed.ac.uk"><i class="fas fa-at"></i></a>
+    <a href="{{ site.github.owner_url }}"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/filipkaklin"><i class="fab fa-linkedin"></i></a>
+  </div>
+  <h2 class="content-tab"><a href="/pubs/">Publications</a></h2>
+  <h2 class="content-tab"><a href="/side/">Side Projects</a></h2>
+  <!-- <h2 class="content-tab"><a href="/about/">About me</a></h2> -->
+</header>
