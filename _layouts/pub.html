@@ -9,8 +9,9 @@ layout: default
 
 {{content}}
 
-
+{% if page.doi %}
 <p><strong>DOI: <a href="https://doi.org/{{ page.doi }}">{{page.doi}}</a></strong></p>
+{% endif %}
 <p>
 <a href="https://{{ page.link }}"><i class="fas fa-file-pdf"></i></a>
 </p>
