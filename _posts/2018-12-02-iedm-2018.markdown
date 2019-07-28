@@ -1,0 +1,11 @@
+---
+title: High Voltage Generation Using Deep Trench Isolated Photodiodes in a Back Side Illuminated Process
+authors: [Filip Kaklin, Jeffrey M. Raynor, Robert K. Henderson]
+link: ieeexplore.ieee.org/document/8614656
+doi: 10.1109/IEDM.2018.8614656
+layout: pub
+categories: publication
+tags: [energy harvesting, ]
+
+---
+We demonstrate passive high voltage generation using photodiodes biased in the photovoltaic region of operation. The photodiodes are integrated in a 90nm back side illuminated (BSI) deep trench isolation (DTI) capable imaging process technology. Four equal area, DTI separated arrays of photodiodes are implemented on a single die and connected using on-chip transmission gates (TG). The TGs control interconnects between the four arrays, connecting them in series or in parallel. A series configuration successfully generates an open-circuit voltage of 1.98V at 1klux. The full array generates 423nW/mm2 at 1klux of white LED illumination in series mode and 425nW/mm2 in parallel mode. Peak conversion efficiency is estimated at 16.1%, at 5.7klux white LED illumination.
