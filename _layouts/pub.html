@@ -9,8 +9,11 @@ layout: default
 
 {{content}}
 
+
+<p><strong>DOI: <a href="https://doi.org/{{ page.doi }}">{{page.doi}}</a></strong></p>
+<p>
 <a href="https://{{ page.link }}"><i class="fas fa-file-pdf"></i></a>
-<p></p>
+</p>
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
 {% endif %}
