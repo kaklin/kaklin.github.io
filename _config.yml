@@ -24,7 +24,11 @@ github_username:  kaklin
 linked_in: filip.kaklin
 github: {"is_user_page": true,
          "is_project_page": false}
-
+navigation:
+  - title: Publications
+    url: publications
+  - title: Side Projects
+    url: sides
 
 # Build settings
 markdown: kramdown

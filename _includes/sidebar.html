@@ -12,7 +12,15 @@
     <a href="{{ site.github.owner_url }}"><i class="fab fa-github"></i></a>
     <a href="https://www.linkedin.com/in/filipkaklin"><i class="fab fa-linkedin"></i></a>
   </div>
-  <h2 class="content-tab"><a href="{{ "/pubs" | relative_url }}">Publications</a></h2>
-  <h2 class="content-tab"><a href="{{ "/side" | relative_url }}">Side Projects</a></h2>
+  {% for item in site.navigation %}
+      {% assign class = nil %}
+      {% if page.url contains item.url %}
+          {% assign class = 'active' %}
+      {% endif %}
+      <h2><a href="{{ item.url | relative_url }}" class="{{ class }}">
+          {{ item.title }}
+      </a>
+    </h2>
+  {% endfor %}
   <!-- <h2 class="content-tab"><a href={{ "/about" | relative_url }}">About me</a></h2> -->
 </header>
