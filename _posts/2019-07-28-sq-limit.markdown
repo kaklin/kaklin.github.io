@@ -1,0 +1,18 @@
+---
+title: Shockley-Queisser Limit Calculator
+layout: jnotebook
+categories: side
+notebook: true
+notebook_path: https://raw.githubusercontent.com/kaklin/sq-limit/master/SQ_limit.ipynb
+tags:
+---
+
+A Jupyter notebook which walks through the calculation of the famous Shockley-Queisser Limit - the maximum theoretical efficiency of a photovoltaic converter. 
+
+The notebook is available as a repo on [Github](https://github.com/kaklin/sq-limit) and this page will reflect the latest version available there.
+
+**Launch using Binder to start an interactive version.**
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kaklin/sq-limit/master)
+
+------------
