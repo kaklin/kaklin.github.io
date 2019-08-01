@@ -28,7 +28,7 @@ navigation:
   - title: Publications
     url: publications
   - title: Side Projects
-    url: sides
+    url: side
 
 # Build settings
 markdown: kramdown

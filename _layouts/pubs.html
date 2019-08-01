@@ -9,7 +9,7 @@
 
         {{ content }}
 
-        {% assign pubs = site.posts | where: "categories","publication" %}
+        {% assign pubs = site.posts | where: "categories","publications" %}
         {% assign num_posts = pubs | size %}
         {% if num_posts != 0 %}
           {% for post in pubs %}

@@ -4,7 +4,7 @@ authors: [Filip Kaklin, Jeffrey M. Raynor, Robert K. Henderson]
 link: ieeexplore.ieee.org/document/8614656
 doi: 10.1109/IEDM.2018.8614656
 layout: pub
-categories: publication
+categories: publications
 tags: [energy harvesting, ]
 
 ---
