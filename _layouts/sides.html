@@ -1,0 +1,42 @@
+{% include header.html %}
+  <body>
+    <div class="wrapper">
+      <div class="grid-container">
+        <div class="sidebar">
+          {% include sidebar.html %}
+        </div>
+        <div class="content">
+
+        {{ content }}
+
+        {% assign side_posts = site.posts | where: "categories","side" %}
+        {% assign num_posts = side_posts | size %}
+        {% if num_posts != 0 %}
+          {% for post in side_posts  %}
+              <small>{{ post.date | date: "%-d %B %Y" }}</small>
+              <h1><a href="{{ post.url }}">{{ post.title}}</a></h1>
+              <p>{{ post.excerpt }} <a href="{{ post.url }}">continue...</a></p>
+          {% endfor %}
+        {% else %}
+          <p>No posts yet. </p>
+        {% endif %}
+
+        </div>
+        <div class="footer">
+          <p><small>Hosted on GitHub Pages</small></p>
+        </div>
+      </div>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    {% if site.google_analytics %}
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', '{{ site.google_analytics }}', 'auto');
+      ga('send', 'pageview');
+    </script>
+    {% endif %}
+  </body>
+</html>
