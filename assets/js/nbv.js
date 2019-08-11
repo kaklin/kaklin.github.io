@@ -27,7 +27,7 @@ var nbv = (function() {
         }
         var t = d.createElement('div');
         t.setAttribute('style', [
-            // 'max-width: 580px',
+            'max-width: 580px',
             'max-width: 90vw',
             // 'border: 1px solid #ccc',
             // 'border-top: 1px solid #ccc',
