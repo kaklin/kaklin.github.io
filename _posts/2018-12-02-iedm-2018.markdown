@@ -6,6 +6,12 @@ doi: 10.1109/IEDM.2018.8614656
 layout: pub
 categories: publications
 tags: [energy harvesting, ]
-
+excerpt_separator: <!--more-->
 ---
 We demonstrate passive high voltage generation using photodiodes biased in the photovoltaic region of operation. The photodiodes are integrated in a 90nm back side illuminated (BSI) deep trench isolation (DTI) capable imaging process technology. Four equal area, DTI separated arrays of photodiodes are implemented on a single die and connected using on-chip transmission gates (TG). The TGs control interconnects between the four arrays, connecting them in series or in parallel. A series configuration successfully generates an open-circuit voltage of 1.98V at 1klux. The full array generates 423nW/mm2 at 1klux of white LED illumination in series mode and 425nW/mm2 in parallel mode. Peak conversion efficiency is estimated at 16.1%, at 5.7klux white LED illumination.
+<!--more-->
+
+--------
+
+Presented at IEDM 2018 in San Francisco, California.
+
