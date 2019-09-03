@@ -1,0 +1,16 @@
+---
+title: Energy Harvesting Pixel Array with Deep Trench Isolated Diodes for Self-Powered Imaging
+authors: [Filip Kaklin, Jeffrey M. Raynor, Robert K. Henderson]
+link: www.imagesensors.org/Past%20Workshops/2019%20Workshop/2019%20Papers/R41.pdf
+layout: pub
+categories: publications
+tags: [energy harvesting, cmos imaging]
+excerpt_separator: <!--more-->
+
+---
+An array of pixels with dual functionality is implemented in a deep trench isolation (DTI), backside illuminated (BSI) process. Full thickness isolation separates the diode from the readout and reconfiguration transistors to make a 4T pixel. Each row of the array can operate independently in imaging mode (IM) or energy harvesting (EH) mode, ensuring power generation even when capturing a frame. The theoretical limit for power generation is evaluated based on an idealized lens and realistic illumination levels for different spectra. The presented chip achieves around half of this limit, operating with an efficiency between 9-15%
+<!--more-->
+
+--------
+
+Presented at IISW 2019 in Snowbird, Utah.
