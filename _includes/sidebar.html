@@ -17,7 +17,7 @@
       {% if page.url contains item.url %}
           {% assign class = 'active' %}
       {% endif %}
-      <h2><a href="{{ item.url | relative_url }}" class="{{ class }}">
+      <h2><a href="{{ item.url | relative_url }}" class="{{ class }} category">
           {{ item.title }}
       </a>
     </h2>

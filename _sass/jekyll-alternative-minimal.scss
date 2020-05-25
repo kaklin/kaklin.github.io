@@ -1,6 +1,10 @@
 @import "fonts";
 @import "rouge-github";
 
+html {
+  overflow-y: scroll;
+}
+
 body {
   background-color: #fff;
   padding:20px;
@@ -8,7 +12,7 @@ body {
   color:#727272;
   font-weight:400;
   margin: 0;
-  margin-top: 1.5em;
+  padding-top: 40px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -50,9 +54,13 @@ h2 a:hover{
   color:#bbbbbb;
 }
 
+.category{
+  font-weight: normal;
+}
+
 .active {
   // text-decoration: underline;
-  border-bottom: 3px solid;
+  font-weight: bold;
 }
 
 h3, h4, h5, h6 {
@@ -98,16 +106,13 @@ a:hover small {
 }
 
 .grid-container {
-  // justify-content: center;
-  // max-width: 680px;
-  min-height: 90vh;
+  min-height: calc(100vh - 60px);
   display: grid;
   grid-template-areas: 
     "sidebar feed" 
     "footer feed";
   grid-template-rows: auto 3em;
   grid-template-columns: 1fr 3fr;
-  padding: 10px;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
 }
