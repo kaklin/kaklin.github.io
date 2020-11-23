@@ -2,5 +2,5 @@
 
 Simple personal site.
 
-Hosted on [GitHub Pages](kaklin.github.io).
+Hosted on [GitHub Pages](http://kaklin.github.io).
 
