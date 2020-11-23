@@ -3,22 +3,18 @@ layout: default
 ---
 
 <small>{{ page.date | date: "%-d %B %Y" }}</small>
-<!-- <h1>{{ page.title }}</h1> -->
+<h1>{{ page.title }}</h1>
+<h2>{{ page.subtitle }}</h2>
+
 <h4>{{ page.authors | join: ', ' }}</h4>
 
 {{ content }}
 
-<div id="notebook">
-	
+{% if page.canvas %}
+<div id="canvas-container">
+<canvas id="canvas" height=0 width=0 
+	style="border: 1px black solid">
+</canvas>
 </div>
-
-<script type='text/javascript'>
-    var notebook = document.getElementById('notebook');
-    var request = new XMLHttpRequest();
-       request.open("GET", "https://raw.githubusercontent.com/kaklin/sq-limit/master/SQ_limit.ipynb", false);
-       request.send(null)
-       var my_JSON_object = JSON.parse(request.responseText);
-    var nb = my_JSON_object
-    nbv.render(nb, notebook);
-</script>
+{% endif %}
 

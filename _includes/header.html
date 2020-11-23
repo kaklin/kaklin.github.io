@@ -33,4 +33,11 @@
       });
     </script>
     {% endif %}
+
+    {% if page.script_module %}
+    <script type="module">
+      {% include {{ page.script_path }} %}
+    </script>
+    {% endif %}
+
   </head>
