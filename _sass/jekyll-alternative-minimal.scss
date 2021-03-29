@@ -180,6 +180,12 @@ img {
   max-width:100%;
 }
 
+p > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 header {
   text-align: center;
 }
@@ -191,7 +197,6 @@ header > .image_wrapper {
 
 .profile-pic {
   border-radius: 50%;
-  // width: 50%;
   margin: 0 auto;
 }
 
