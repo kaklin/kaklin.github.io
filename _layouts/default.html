@@ -1,18 +1,16 @@
 {% include header.html %}
   <body>
-    <div class="wrapper">
-      <div class="grid-container">
-        <div class="sidebar">
-          {% include sidebar.html %}
-        </div>
-        <div class="content">
+    <div class="grid-container">
+      <div class="sidebar">
+        {% include sidebar.html %}
+      </div>
+      <div class="content">
 
-        {{ content }}
+      {{ content }}
 
-        </div>
-        <div class="footer">
-          <p><small>Hosted on GitHub Pages</small></p>
-        </div>
+      </div>
+      <div class="footer">
+        <p><small>Hosted on GitHub Pages</small></p>
       </div>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
