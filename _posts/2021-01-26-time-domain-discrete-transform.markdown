@@ -1,7 +1,7 @@
 ---
 title: Time Domain Discrete Transform Computation - Patent Granted
 layout: pub
-authors: [Filip Kaklin]
+authors: []
 categories: publications
 link: patents.google.com/patent/US20210014090A1
 tags: [energy harvesting]

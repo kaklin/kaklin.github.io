@@ -1,7 +1,7 @@
 ---
 title: Reverse Body Biasing of a Transistor Using a Photovoltaic Source - Patent Granted
 layout: pub
-authors: [Filip Kaklin]
+authors: []
 categories: publications
 link: patents.google.com/patent/US10892757B1/
 tags: [energy harvesting]
