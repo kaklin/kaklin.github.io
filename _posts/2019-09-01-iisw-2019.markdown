@@ -1,5 +1,5 @@
 ---
-title: Energy Harvesting Pixel Array with Deep Trench Isolated Diodes for Self-Powered Imaging
+title: Energy Harvesting Pixel Array with Deep Trench Isolated Diodes for Self-Powered Imaging - IISW 2019
 authors: [Filip Kaklin, Jeffrey M. Raynor, Robert K. Henderson]
 link: www.imagesensors.org/Past%20Workshops/2019%20Workshop/2019%20Papers/R41.pdf
 layout: pub

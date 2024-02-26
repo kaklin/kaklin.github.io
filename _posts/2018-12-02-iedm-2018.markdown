@@ -1,5 +1,5 @@
 ---
-title: High Voltage Generation Using Deep Trench Isolated Photodiodes in a Back Side Illuminated Process
+title: High Voltage Generation Using Deep Trench Isolated Photodiodes in a Back Side Illuminated Process - IEDM 2018
 authors: [Filip Kaklin, Jeffrey M. Raynor, Robert K. Henderson]
 link: ieeexplore.ieee.org/document/8614656
 doi: 10.1109/IEDM.2018.8614656
