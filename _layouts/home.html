@@ -16,7 +16,10 @@
             {% if post.authors %}
             <h4>{{ post.authors | join: ', ' }}</h4>
             {% endif %}
-            <p>{{ post.excerpt }} <a href="{{ post.url }}">continue...</a></p>
+            <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+            {% if post.video %}
+            <h4>{{ post.video }}</h4>
+            {% endif %}
         {% endfor %}
       {% else %}
         <p>No posts yet. </p>
