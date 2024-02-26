@@ -8,9 +8,9 @@
   <p class="description ">{{ site.description | default: site.github.project_tagline }}</p>
 
   <div class="icons">
-    <a href="mailto:filip.kaklin@ed.ac.uk"><i class="fas fa-at"></i></a>
-    <a href="{{ site.github.owner_url }}"><i class="fab fa-github"></i></a>
-    <a href="https://www.linkedin.com/in/filipkaklin"><i class="fab fa-linkedin"></i></a>
+    <a href="mailto:{{ site.email }}"><i class="fas fa-at"></i></a>
+    <a href="{{ site.github.owner_url }}" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/filipkaklin" target="_blank"><i class="fab fa-linkedin"></i></a>
   </div>
   {% for item in site.navigation %}
       {% assign class = nil %}
