@@ -1,0 +1,14 @@
+---
+title: Self-Powered Ambient Light Sensor Using Energy Harvesting Pixels and Zero Power Communication - IISW 2023
+authors: [Benjamin Sarachi, Angus Cook, Jeffrey M. Raynor, Ilina Todorova, Stuart Ball, Filip Kaklin, Joe MacDougall, Sergio M. Aparicio, Robert K. Henderson]
+link: https://www.imagesensors.org/Past%20Workshops/2023%20Workshop/2023%20Papers/P13.pdf
+layout: pub
+categories: publications
+
+---
+
+As CMOS technology improves, more efficient devices can be created achieving functionality with ever decreasing power budgets. This has moved to the point where some devices are so low power that they are able to harvest what they require from their surroundings. These energy harvesting sensors can be implemented in a wider system providing functionality with very little power cost. We present one such system, an energy harvesting (EH) ambient light sensor (ALS). This device is a 3D stacked chip where the top tier consists of an array of PV cells to harvest energy from the ambient light and a photodiode sensing cell to provide the ALS measurement. Having both power generation and sensing functionality contained within the same array is possible with deep trench isolation (DTI). The full thickness trench isolation allows each PV cell to be isolated from one another and then connected in series allowing for high voltage generation without the use of charge pumps [1]. By using a back side illuminated process (BSI) both the quantum efficiency (QE) and fill factor are improved. In this case, 3 PV cells are connected in series providing 1.2V to power the device forming the basis for a self-powered ambient light sensor. This sort of sensor has uses in many applications in consumer electronics that already use an ALS and have limited battery power such as wearables and small IoT devices 
+
+--------
+
+Presented by Ben at IISW 2023 in Crieff, Scotland.
