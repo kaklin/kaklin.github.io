@@ -18,7 +18,7 @@
             {% endif %}
             <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
             {% if post.video %}
-            <h4>{{ post.video }}</h4>
+            <div class="video-container">{{ post.video }}</div>
             {% endif %}
         {% endfor %}
       {% else %}
