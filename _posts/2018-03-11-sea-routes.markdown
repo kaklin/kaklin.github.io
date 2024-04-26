@@ -11,7 +11,7 @@ TL;DR: Find the repo on [Github](https://github.com/kaklin/sea-routes).
 
 I recently got involved in a project which had me trying to estimate the CO2 emissions for goods shipped worldwide. Since so many goods are moved around on giant container ships, I was looking for a way to estimate the distance between large ports. A quick search later, I came across [_Distances Between Ports (Pub. 151)_](https://msi.nga.mil/api/publications/download?key=16694076/SFH00000/Pub151bk.pdf&type=view).
 
-> ![PUB. 151 Front Cover](/assets/posts/img/distances-between-ports-front-cover.jpg)
+> ![PUB. 151 Front Cover](/assets/posts/2018-03-11-sea-routes/distances-between-ports-front-cover.jpg)
 
 The document is a long list of all the major ports, with distances to other nearby ports and _Junction Points_. The Junction Points help consolidate routes, making it practical to publish this in print format, coming in at 100-odd pages.
 
@@ -21,7 +21,7 @@ Fortunately, with a quick copy--paste into a text editor, it's possible to get a
 
 With a quick python script we can change this:
 
-> ![junction points example](/assets/posts/img/ports_example.png)
+> ![junction points example](/assets/posts/2018-03-11-sea-routes/ports_example.png)
 
 into this:
 
@@ -53,11 +53,11 @@ into this:
 
 Making it easy to plot all of the ports on a map
 
-> ![all ports](/assets/posts/img/all_ports_map.png)
+> ![all ports](/assets/posts/2018-03-11-sea-routes/all_ports_map.png)
 
 Likewise, and even easier, we can change this:
 
-> ![junction points example](/assets/posts/img/junction_points_old.png)
+> ![junction points example](/assets/posts/2018-03-11-sea-routes/junction_points_old.png)
 
 into this
 
@@ -69,7 +69,7 @@ into this
 }
 ```
 
-> ![junction points](/assets/posts/img/junction_points_map.png)
+> ![junction points](/assets/posts/2018-03-11-sea-routes/junction_points_map.png)
 
 The extracted data in JSON format, together with the parser script [is available on Github](https://github.com/kaklin/sea-routes).
 
