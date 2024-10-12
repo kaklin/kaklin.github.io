@@ -11,4 +11,4 @@ tags:
 
 A simple implementation of [boids](https://en.wikipedia.org/wiki/Boids) using javascript and rendering to an HTML canvas.
 
-Source code available on [github](https://github.com/kaklin/kaklin.github.io/tree/master/_includes/).
+Source code available on [github](https://github.com/kaklin/kaklin.github.io/blob/master/_includes/boids.js).
