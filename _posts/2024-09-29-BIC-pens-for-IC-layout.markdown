@@ -17,18 +17,18 @@ So, swapping a few colors around, I came up with these:
 
 ## Frontend
 Polysilicon in red and active in green. Standard so far.
-![Image]({{"/assets/img/bic_pood.jpg" | relative_url }})
+![Image]({{"/assets/posts/2024-09-29-BIC-pens-for-IC-layout/bic_pood.jpg" | relative_url }})
 
 Metal 1 in blue, and NWell in orange. The orange also works well for frontend contacts.
-![Image]({{"/assets/img/bic_m1nw.jpg" | relative_url }})
+![Image]({{"/assets/posts/2024-09-29-BIC-pens-for-IC-layout/bic_m1nw.jpg" | relative_url }})
 
 ## Metals
 
 Metal 1 in blue (again) and metal 2 in cyan.
-![Image]({{"/assets/img/bic_m1m2.jpg" | relative_url }})
+![Image]({{"/assets/posts/2024-09-29-BIC-pens-for-IC-layout/bic_m1m2.jpg" | relative_url }})
 
 Metal 3 in pink and metal 4 in a bright green.
-![Image]({{"/assets/img/bic_m3m4.jpg" | relative_url }})
+![Image]({{"/assets/posts/2024-09-29-BIC-pens-for-IC-layout/bic_m3m4.jpg" | relative_url }})
 
 The metals pen is shiny and metallic as well which I think is a nice touch.
 
