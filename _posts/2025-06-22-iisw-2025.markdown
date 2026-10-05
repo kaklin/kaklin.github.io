@@ -1,0 +1,14 @@
+---
+title: A Multi-Mode Pixel with Photodiode and Clock-Recharged SPAD Operation for Continuous Recording Applications - IISW 2025
+authors: [Xin Sun, Maciej Wojtkiewicz, Istvan Gyongy, Srinjoy Mitra, Filip Kaklin, Neale A. W. Dutton]
+link: https://imagesensors.org/Past%20Workshops/2025%20Workshop/2025%20Papers/P46_Sun.pdf
+layout: pub
+categories: publications
+
+---
+
+We present a multi-mode, high-dynamic-range (HDR) photodiode (PD) pixel architecture designed for continuous optical signal recording and high-frame-rate applications. Recent advances in image sensor technology face challenges in achieving a wide dynamic range. Our proposed sensor structure addresses these limitations by enabling operation across different sensitivity regions of the photodiode. By adjusting the pixel bias voltage, the sensor can function in three distinct modes: low- sensitivity & high-sensitivity PD, a narrow avalanche photodiode (APD) region, and a clock-recharged single-photon avalanche diode (SPAD). This design offers flexibility in exposure time per cycle and recharge frequency. Photon detection is read out via a source follower and digitized through an analog-to-digital converter (ADC), allowing for continuous photon arrival timestamping with microsecond to millisecond resolution depending on ADC sampling rate and resolution. The sensor is fabricated using a 3D-stacked 65 nm/40 nm imaging process, achieving approximately a 10× sensitivity increase when varying the bias voltage from −3 V to −17 V. This advancement supports HDR ranging from single-photon sensitivity to illumination levels as high as 500 μW cm−2.
+
+--------
+
+Presented at IISW 2025 in Hyogo, Japan.
